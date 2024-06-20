@@ -64,3 +64,53 @@ div#form > h1{
 div#form > p{
     font-size: 0.8em;
 }
+
+form > div.input{
+    width: 100%;
+    display: block;
+    background-color: #44392bf5;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+div.input > label{
+    display: none;
+}
+form > input[type = submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #504331e0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > input[type = submit]:hover{
+    background-color:#44392b;
+    color: wheat;
+}
+
+form > a.buttom{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding-top: 5px;
+    margin-top: 5px;
+    background-color:white ;
+    border: 1px solid #504332e0 ;
+    border-radius: 7px;
+    color: black;
+    text-decoration: none;
+}
+
+form>a.buttom:hover{
+    background-color:#44392b;
+    color: wheat;
+}
+
