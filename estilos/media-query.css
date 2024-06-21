@@ -55,4 +55,12 @@
         font-size: 1.2em;
     }
 
+
+    form > input[type = submit]{
+        margin-top: 16px;
+    }
+
+    form > a.buttom{
+        margin-top: 5px;
+    }
 }
